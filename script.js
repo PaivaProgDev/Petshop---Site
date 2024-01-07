@@ -11,11 +11,3 @@ menuIcon.addEventListener('click', ()=> {
         menuIcon.src = './images/close.svg'
     }
 }) 
-
-// Script para limpar o input ao enviar o email
-var inputMail = document.querySelector('.input-email-newsletter')
-var inputButton = document.querySelector('.input-button-newsletter')
-
-inputButton.addEventListener('click', ()=>{
-    inputMail.value = ''
-})
